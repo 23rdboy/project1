@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(111, 85, 131);
+  }
+
+  h1 {
+    color:aliceblue;
+  }
+
+  p {
+    color:aliceblue;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: rgb(59, 36, 76);
+  }
