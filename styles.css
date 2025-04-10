@@ -14,6 +14,24 @@ body {
     list-style-type: none;
   }
 
+  li {
+    display: inline;
+  }
+
   a {
     color: rgb(59, 36, 76);
+    border-style: double;
+    padding: 10px;
+    margin: 6px;
+  }
+
+  li a:hover {
+    background-color: #d3adf3;
+  }
+
+  nav {
+    border-style: dotted;
+    color: rgb(59, 36, 76);
+    margin: 10px;
+    
   }
