@@ -14,8 +14,6 @@ body {
     color: rgb(214, 217, 219);
     padding: 20px;
     padding-left: 200px;
-    background-color: rgb(85, 63, 101);
-    border-radius: 5px;
   }
 
   ul {
@@ -51,7 +49,6 @@ body {
   text-align: center;
   position : fixed;
   bottom : 0;
-  background-color: rgb(111, 85, 131);
 }
 
 img {
