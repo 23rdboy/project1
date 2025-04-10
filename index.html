@@ -26,6 +26,18 @@
     <h1>welcome to my website</h1>
     <p>This is my website home page! Click one of my page links at the top to go somewhere else!</p>
 
+    <button onclick="myFunction()">Click me!</button>
+    <p id="demo"></p>
+
+    <script>
+      function myFunction() {
+        let person = prompt("Name?", "Ez");
+        if (person !=null) {
+          document.getElementById("demo").innerHTML =
+          "Hello " + person + "! Hope you're having a good day!!! :-)"
+        }
+      }
+    </script>
     <footer>
       <p id="one">© 2025 My Hobby Site. All rights reserved.</p>
     </footer>
